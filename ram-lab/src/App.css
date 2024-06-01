@@ -1,0 +1,83 @@
+
+body {
+  background: url(https://rickandmortypod.com/storage/2018/11/cropped-RM_page-header_background1-3.png) no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: center;
+}
+
+
+.showChars {
+  color: aqua;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+.hideChars {
+  display: none;
+}
+.showLocations{
+  color: aqua;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+.hideLocations {
+  display: none;
+}
+
+
+.add {
+  background-color: rgb(181, 181, 181);
+  border-radius: 10%;
+  position: fixed;
+  bottom: 3em;
+  right: 1em;
+  height: 4em;
+  font-family: 'Silkscreen', cursive;
+  border:groove;
+  font-size: 1.8em;
+}
+
+.addHover {
+  background-color: aqua;
+  border-radius: 10%;
+  position: fixed;
+  bottom: 3em;
+  right: 1em;
+  height: 4em;
+  font-family: 'Silkscreen', cursive;
+  border:groove;
+  font-size: 1.8em;
+}
+
+.addHoverChar {
+  background-color: aqua;
+  border-radius: 10%;
+  position: fixed;
+  bottom: 3em;
+  left: 1em;
+  height: 4em;
+  font-family: 'Silkscreen', cursive;
+  border:groove;
+  font-size: 1.8em;
+}
+
+.addChar {
+  background-color: rgb(181, 181, 181);
+  border-radius: 10%;
+  position: fixed;
+  bottom: 3em;
+  left: 1em;
+  height: 4em;
+  font-family: 'Silkscreen', cursive;
+  border:groove;
+  font-size: 1.8em;
+}
+
+.cards {
+  background-color: rgb(175, 232, 89, .2);
+  border-radius: 2%; 
+}
